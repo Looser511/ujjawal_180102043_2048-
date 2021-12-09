@@ -343,7 +343,7 @@ class Game(tk.Tk):
 if __name__ == "__main__":
     app = Game()
     app.bind_all('<Key>', app.keyPressed)
-    app.wm_title("2048 GAME Developed By Sheelaj Babu")
+    app.wm_title("2048 GAME Developed By Ujjawal Kumar")
     app.minsize(430, 460)
     app.maxsize(430, 460)
     app.mainloop()
